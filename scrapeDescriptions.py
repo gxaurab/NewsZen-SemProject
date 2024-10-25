@@ -23,7 +23,7 @@ with open(file_name, 'w', newline='', encoding='utf-8') as csv_file:
     csv_writer.writerow(['Headline', 'Description'])
 
     # Open the CSV that has the list of article paths
-    with open('todayData.csv', 'r', newline='', encoding='utf-8') as file:
+    with open('todayData1.csv', 'r', newline='', encoding='utf-8') as file:
         csv_reader = csv.reader(file)
         next(csv_reader)  # Skip the header row
 
